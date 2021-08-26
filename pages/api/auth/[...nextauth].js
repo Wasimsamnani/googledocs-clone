@@ -14,3 +14,4 @@ export default NextAuth({
   ],
   adapter:FirebaseAdapter(db),
 })
+console.log(process.env.GOOGLE_CLIENT_ID);
